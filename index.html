@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ositos cariñositos</title>
+    <style>
+        body {
+            background-color: skyblue;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .categories, .products {
+            margin: 20px 0;
+        }
+        .product {
+            width: 150px;
+            height: 200px;
+            border: 1px solid #000;
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+            position: relative;
+            overflow: hidden; /* Para ocultar cualquier desbordamiento */
+        }
+        .product img {
+            width: 100%; /* Ajustar la imagen al tamaño del contenedor */
+            height: auto; /* Mantener la proporción de la imagen */
+            display: block; /* Evitar el espacio debajo de la imagen */
+        }
+        .cta-button {
+            width: 100%;
+            height: 30px;
+            background-color: orange;
+            border: none;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            text-decoration: none;
+            text-align: center;
+            line-height: 30px; /* Centrar el texto verticalmente */
+        }
+        .cta-button.green {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Ositos cariñositos</h1>
+        </div>
+
+        <div class="categories">
+            <h2>Categorías:</h2>
+            <ul>
+                <li>Osito azul</li>
+                <li>Osito amarillo</li>
+                <li>Osito verde</li>
+                <li>Osito rosa</li>
+            </ul>
+        </div>
+
+        <div class="products">
+            <h2>Productos</h2>
+            <div class="product">
+                <img src="osito azul.jpg" alt="Descripción de la imagen 1">
+                <a href="producto.html" class="cta-button">Ver</a>
+            </div>
+            <div class="product">
+                <img src="osito amarillo.jpg" alt="Descripción de la imagen 2">
+                <a href="producto1.html" class="cta-button orange">Ver</a>
+            </div>
+            <div class="product">
+                <img src="osito verde.jpg" alt="Descripción de la imagen 3">
+                <a href="producto2.html" class="cta-button">Ver</a>
+            </div>
+            <div class="product">
+                <img src="osito rosa.jpg" alt="Descripción de la imagen 4">
+                <a href="producto3.html" class="cta-button">Ver</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
